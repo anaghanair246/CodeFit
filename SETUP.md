@@ -1,6 +1,6 @@
 # Setup Guide
 
-Complete setup instructions for running IssueMatch locally.
+Complete setup instructions for running CodeFit locally.
 
 ## Prerequisites
 
