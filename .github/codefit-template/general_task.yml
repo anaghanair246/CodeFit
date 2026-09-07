@@ -1,0 +1,66 @@
+name: General Task
+description: Create a task or improvement
+title: "[TASK] "
+labels: ["task", "SWoC26"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Create a task for development, testing, or documentation work.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: What needs to be done?
+      placeholder: Describe the task...
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: What should be achieved?
+      placeholder: Expected outcomes...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How will we know this is complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Frontend
+        - Backend
+        - AI/ML
+        - Database
+        - Documentation
+        - Testing
+        - DevOps
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical Details
+      description: Any specific requirements or constraints?
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources
+      description: Links to documentation or examples
