@@ -1,4 +1,4 @@
-# IssueMatch Deployment Guide
+# CodeFit Deployment Guide
 
 This guide explains how to deploy the IssueMatch application on Render.
 
