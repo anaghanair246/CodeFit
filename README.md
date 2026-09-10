@@ -1,71 +1,72 @@
-# 🚀 CodeFit
+# 🚀 CodeScout
 
-> Find the right open-source issue. Build your skills. Start contributing.
+> Discover the right GitHub issue. Contribute with confidence. Grow through open source.
 
-CodeFit is an AI-powered platform that helps developers discover GitHub issues that match their skills, experience, and interests.
+CodeScout is an AI-powered platform that helps developers discover GitHub issues that fit their skills, experience, and interests.
 
-Instead of manually searching through countless repositories and issues, CodeFit analyzes a developer's GitHub profile and intelligently recommends relevant opportunities to contribute to open source.
+Rather than spending hours searching through repositories and filtering hundreds of issues, CodeScout analyzes a developer’s GitHub profile and recommends contribution opportunities that are a better match for them.
 
 ---
 
 ## ✨ Features
 
-### 🤖 AI-Powered Matching
+### 🤖 Intelligent Issue Matching
 
-- **Smart Profile Analysis** — Extracts skills from GitHub profiles and repositories
-- **Vector Similarity Search** — Uses FAISS-powered matching with 384-dimensional embeddings
-- **Intelligent Query Generation** — AI generates optimized GitHub search queries
-- **Real-time Learning** — Improves recommendations based on user feedback
+* **GitHub Profile Analysis** — Identifies skills and experience from profiles and repositories
+* **AI-Powered Search** — Generates optimized queries to find relevant GitHub issues
+* **Semantic Matching** — Uses FAISS and 384-dimensional embeddings to compare developers with issues
+* **Feedback-Based Recommendations** — Learns from user feedback to improve future suggestions
 
-### 👤 User Experience
+### 👤 Developer Experience
 
-- **GitHub OAuth** — Secure one-click authentication
-- **Interactive Skill Assessment** — 10-question skill evaluation system
-- **AI Chatbot Assistant** — Helps users understand issues and contribution requirements
-- **Dark / Light Theme** — Modern interface with theme switching
+* **GitHub OAuth** — Quick and secure GitHub authentication
+* **Skill Assessment** — Interactive 10-question assessment to better understand developer abilities
+* **AI Assistant** — Helps users understand issues and what is required to contribute
+* **Theme Support** — Switch between dark and light modes
 
-### 🎓 Mentorship & Growth
+### 🎓 Growth & Community
 
-- **Mentor Matching** — Connect with experienced developers
-- **Leaderboard System** — Contribution-based rankings with 10/25/50 point levels
-- **Referral Program** — Earn 5 points per referral
-- **Progress Analytics** — Track your open-source contribution journey
+* **Mentor Matching** — Helps developers connect with experienced contributors
+* **Contribution Leaderboard** — Tracks contribution points and developer progress
+* **Referral System** — Rewards users with 5 points for successful referrals
+* **Progress Tracking** — Follow your open-source contribution journey
 
 ---
 
 ## 🧠 How It Works
 
 ```text
-                 GitHub Profile
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Profile Analysis│
-              │ Skills & Projects│
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │  AI Processing  │
-              │ Query Generation│
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │  GitHub Issues  │
-              │    Retrieval    │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Vector Matching │
-              │   & Ranking     │
-              └────────┬────────┘
-                       │
-                       ▼
-                🎯 Recommended Issues
-                       │
-                       ▼
-                 🔄 User Feedback
-                       │
-                       └──────► Improves Matching
+              GitHub Profile
+                    │
+                    ▼
+          ┌──────────────────┐
+          │ Developer Profile│
+          │    Analysis      │
+          └────────┬─────────┘
+                   │
+                   ▼
+          ┌──────────────────┐
+          │   AI Query       │
+          │    Generation    │
+          └────────┬─────────┘
+                   │
+                   ▼
+          ┌──────────────────┐
+          │ GitHub Issue     │
+          │    Search        │
+          └────────┬─────────┘
+                   │
+                   ▼
+          ┌──────────────────┐
+          │ Semantic Ranking │
+          │   & Matching     │
+          └────────┬─────────┘
+                   │
+                   ▼
+             🎯 Best Matches
+                   │
+                   ▼
+            🔄 User Feedback
+                   │
+                   └──────► Refines Future Results
+```
